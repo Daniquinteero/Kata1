@@ -1,4 +1,4 @@
-//token: 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
+//token: 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
 
 package kata1;
 
@@ -12,6 +12,7 @@ public class Kata1 {
     public static void main(String[] args) {
         Calendar date;
         date = GregorianCalendar.getInstance();
+        
         date.set(49,8,24);
         Person person = new Person("Blas", date);
         System.out.println(person.getName() + "tiene " + person.getAge() + " años.");
