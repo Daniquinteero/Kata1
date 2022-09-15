@@ -1,3 +1,5 @@
+//token: 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
+
 package kata1;
 
 import java.util.Date;
